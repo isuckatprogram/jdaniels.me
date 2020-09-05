@@ -17,10 +17,14 @@ async function generateSiteMap() {
                 .replace('pages', '')
                 .replace('.js', '')
                 .replace('.md', '')
-              const route = path === '/index' ? '' : path
+              var route = path === '/index' ? '' : path
+              if(route[0] == '/'){
+                route = route.replace('/', '')
+              }
+
               return `
                       <url>
-                          <loc>${`https://bots.wtf/${route}`}</loc>
+                          <loc>${`https://jdaniels.me/${route}`}</loc>
                       </url>
                   `
             })

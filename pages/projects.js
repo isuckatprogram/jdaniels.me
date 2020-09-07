@@ -57,6 +57,10 @@ class ProjectPage extends React.Component{
             <a href="https://discord.gg/EzecfUX"><strong>Null Discord Bot</strong></a>
             <p>Null is a discord bot I made for moderation, music, fun, etc. It was for fun but has surprisingly grown.</p>
           </div>
+           <div className="project">
+            <a href="https://img.jdaniels.me"><strong>Images</strong></a>
+            <p>This is a simple image proxy thing that I made in 30 minutes. I created it because I wanted to use it to upload images.</p>
+          </div>
         </div>
       </Layout>
     )

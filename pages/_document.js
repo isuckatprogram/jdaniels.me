@@ -16,6 +16,7 @@ class MyDocument extends Document {
           <meta name="description" content="PDanielY is an unknown specie that lives in a planet called Earth (you may have heard of it). Apparently, he likes to make websites and app. You can contact him with something he calls an email (therealhackermon@gmail.com). He also has a Discord (Hackermon#6691)."/>
           <meta name="og:title" content="PDanielY" />
           <meta name="og:description" content="PDanielY is an unknown specie that lives in a planet called Earth (you may have heard of it). Apparently, he likes to make websites and app. You can contact him with something he calls an email (therealhackermon@gmail.com). He also has a Discord (Hackermon#6691)." />
+					
           <meta name="og:image" content="https://jdaniels.me/static/hackermon.png" />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:title" content="PDanielY" />
@@ -39,6 +40,8 @@ class MyDocument extends Document {
         `,
             }}
           />
+
+					<script async src="https://arc.io/widget.js#8BsJZj7h"></script>
         </Head>
         <body>
           <Main />
